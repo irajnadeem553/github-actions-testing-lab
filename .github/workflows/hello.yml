@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display Welcome Message
-        run: echo "Welcome! My GitHub Actions workflow is running successfully."
+        run: echo "MY NAME IS IRAJ NADEEM."
