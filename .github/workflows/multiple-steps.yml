@@ -1,0 +1,18 @@
+
+name: Multiple Steps Workflow
+
+on:
+  push:
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1 - Welcome
+        run: echo "Welcome to GitHub Actions!"
+
+      - name: Step 2 - Display Course
+        run: echo "Course: BS Cyber Security"
+
+      - name: Step 3 - Display Lab Status
+        run: echo "The workflow completed successfully."
